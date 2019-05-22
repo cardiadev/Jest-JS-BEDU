@@ -1,4 +1,6 @@
-function getLargerInt(num1, num2) {}
+function getLargerInt(num1, num2) {
+  return num1 > num2 ? num1 : num2;
+}
 
 module.exports = {
   getLargerInt
